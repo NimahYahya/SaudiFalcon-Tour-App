@@ -1,0 +1,156 @@
+/* * Blogs page style */
+.bolgs_cards {
+  height: 50rem;
+}
+
+.blogs_box {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 1rem 0;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.img-container {
+  width: 50%;
+  height: 100%;
+  transition: all 3s ease;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-container:hover {
+  transform: scale(0.9);
+}
+
+.blog-container {
+  height: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  line-height: 1em;
+  padding: 2rem;
+}
+
+.date-created {
+  font-size: 1.5em;
+  color: #af8447;
+}
+.blog-title {
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  font-size: 3rem;
+}
+.blog-content {
+  color: rgb(80, 77, 77);
+  line-height: 1.8em;
+  font-size: 1.5em;
+}
+.blog_link {
+  text-transform: uppercase;
+  color: #f2f2f2 !important;
+}
+.filter-conainer {
+  width: 100%;
+  margin: 2rem 0;
+}
+.blog-category {
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.blog-category li button {
+  text-transform: uppercase;
+}
+.filter-button {
+  color: #f2f2f2;
+  width: 10rem;
+  margin: 0 1em 0 1em;
+  padding: 1rem;
+  background-color: #af8447;
+  border: none;
+}
+
+.filter-button:active {
+  box-shadow: 0 5px 3px #7e7e7e;
+  transform: translateY(6px);
+  transition: all 0.7s;
+}
+.filter-button:hover {
+  font-weight: 700;
+
+  color: #282c34;
+}
+.view-blogs-container {
+  padding: 0em 0 1em 0;
+}
+.pagination {
+  margin: 3em 0 0 0;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-title {
+    font-size: 3em;
+  }
+  .blog-content {
+    font-size: 1.5em;
+  }
+  .date-created {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blog-title {
+    font-size: 2em;
+  }
+  .blog-content {
+    font-size: 1em;
+  }
+  .date-created {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .blog-title {
+    font-size: 1em;
+  }
+  .blog-content {
+    font-size: 1em;
+  }
+  .date-created {
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .blog-title {
+    font-size: 1em;
+  }
+  .bolgs_cards {
+    height: auto;
+  }
+  .blogs_box {
+    flex-direction: column;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .blog-title {
+    font-size: 2.5rem;
+  }
+  .filter-button {
+    width: 7rem;
+    margin: 0 10px;
+    padding: 0.8rem;
+    background-color: #af8447;
+    border: none;
+  }
+  .blog_link {
+    width: 8rem;
+  }
+}

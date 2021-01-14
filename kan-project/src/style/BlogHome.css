@@ -1,0 +1,30 @@
+.blog_box {
+  transform: scale(0.9);
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog_img_cont {
+  width: 100%;
+}
+
+.blog_img_cont img {
+  width: 100%;
+}
+
+.blog_cards_body {
+  flex: 1;
+  padding: 10px;
+}
+
+.blog_cards_title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 10px;
+}

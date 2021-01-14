@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.customersReview-section {
+  max-width: 120rem;
+  margin: 3rem auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.171)),
+    url('https://images.unsplash.com/photo-1602090373740-0577a2382adf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdl1 fHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1182&q=80');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0 2rem 6rem rgba(117, 117, 117, 0.3);
+  min-height: 50rem;
+  border-radius: 3px;
+  padding: 3rem;
+}
+
+.section-head {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.section-head.style1 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.heading_line {
+  display: inline-block;
+  height: 2px;
+  width: 10rem;
+  margin-bottom: 10px;
+  position: relative;
+  background-color: #af8447;
+}
+
+.section-head p {
+  margin: 0 10rem;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+@media only screen and (max-width: 650px) {
+  .customersReview {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .customersReview-section {
+    background-image: none;
+  }
+  .section-head.style1 h2 {
+    color: #333;
+  }
+  .section-head p {
+    color: #333;
+    margin: 0 5rem;
+  }
+}

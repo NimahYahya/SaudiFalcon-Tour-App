@@ -1,0 +1,372 @@
+/* TripDescription component */
+.trip-container {
+  margin: 4em;
+}
+.trip-description-container {
+  margin: 4em;
+}
+.trip-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #282c34;
+  text-transform: uppercase;
+}
+.trip-duration-row {
+  margin: 0 0 1em 0;
+}
+.trip-duration {
+  color: aliceblue;
+  font-size: 1.3em;
+  font-weight: 600;
+  background-color: rgba(0, 132, 255, 0.87);
+  border-radius: 0.2em;
+  width: 20%;
+  text-align: center;
+  margin: 0.5em 0.5em 0.5em 0;
+  padding: 5px;
+}
+.trip-price-col {
+  text-align: center;
+  margin: auto;
+}
+.trip-price-header {
+  text-transform: capitalize;
+  color: rgb(49, 49, 49);
+  font-size: 3em;
+  font-weight: 300;
+}
+.trip-price-new {
+  font-weight: 600;
+
+  font-size: 6em;
+  color: #af8447;
+}
+.trip-price-old {
+  color: gray;
+  font-size: 2em;
+  text-decoration: line-through;
+}
+.trip-book-button {
+  margin-top: 1em;
+  font-size: 2em;
+  width: 50%;
+}
+.trip-img-row {
+  margin: 1em 0 1em 0;
+  width: 100%;
+}
+.trip-img {
+  width: 60%;
+  margin-top: 1em;
+}
+.trip-content-row {
+  width: 100%;
+}
+.trip-content-header {
+  color: #282c34;
+  font-weight: 600;
+  margin: 2em 0;
+}
+.trip-content-details {
+  color: rgb(112, 111, 111);
+  font-size: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8em;
+  margin-bottom: 4em;
+}
+
+/* TripPlan component */
+.trip-plan-container {
+  padding: 1em 0 2em 0;
+  margin: 2em;
+}
+
+.trip-plan-description {
+  background-color: rgba(0, 132, 255, 0.02);
+  border: 0.2em solid rgba(0, 132, 255, 0.075);
+  border-radius: 0.5em;
+  padding: 2em;
+}
+.trip-plan-description-row {
+  margin: 2em;
+}
+.trip-plan-content-col {
+}
+.trip-plan-title {
+  color: #282c34ed;
+  font-size: 3em;
+  text-transform: capitalize;
+  margin-bottom: 0.2em;
+}
+.trip-plan-content {
+  color: rgb(112, 111, 111);
+  font-size: 1.5em;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.8em;
+  margin-top: 0.5em;
+}
+.trip-plan-img-col {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.trip-plan-img {
+  float: right;
+  width: 100%;
+  height: 40em;
+  border-radius: 0.5em;
+}
+.trip-day-col {
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+.trip-day {
+  /* color: #282c34d7; */
+  font-weight: 600;
+  color: rgba(0, 132, 255, 0.87);
+}
+
+@media only screen and (max-width: 900px) {
+  .trip-title {
+    /* background-color: blanchedalmond; */
+  }
+  .trip-price-header {
+    font-size: 2em;
+  }
+  .trip-price-new {
+    font-size: 4em;
+  }
+  .trip-price-old {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 778px) {
+  .trip-title {
+    font-size: 2.5em;
+    /* background-color: pink; */
+  }
+  .trip-content-header {
+    font-size: 2.5em;
+  }
+  .trip-price-header {
+    font-size: 1.5em;
+  }
+  .trip-price-new {
+    font-size: 3em;
+  }
+  .trip-price-old {
+    font-size: 1.5em;
+  }
+  .trip-content-details {
+    margin-bottom: 3em;
+  }
+  .trip-book-button {
+    margin-top: 1em;
+    font-size: 1em;
+  }
+  /* TripPlan component */
+  .trip-plan-container {
+    padding: 1em 0 2em 0;
+    margin: 2em;
+  }
+  .trip-plan-description {
+    padding: 1em;
+  }
+  .trip-plan-title {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+  }
+  .trip-plan-content {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .trip-plan-img {
+    height: 30em;
+    /* object-fit: contain; */
+  }
+  .trip-day {
+    width: max-content;
+    margin: -20px;
+    /* padding-right: 10px; */
+    /* padding: 10px; */
+    /* font-size: 1em; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .trip-title {
+    font-size: 2em;
+    /* background-color: blue; */
+  }
+  .trip-content-header {
+    font-size: 2em;
+  }
+  .trip-price-header {
+    font-size: 1.2em;
+  }
+  .trip-price-new {
+    font-size: 3em;
+  }
+  .trip-price-old {
+    font-size: 1.5em;
+  }
+  .trip-content-details {
+    margin-bottom: 3em;
+  }
+  .trip-book-button {
+    margin-top: 1em;
+    font-size: 1.5em;
+    width: max-content;
+  }
+
+  /* TripPlan component */
+  .trip-plan-container {
+    padding: 1em 0 2em 0;
+    margin: 2em;
+  }
+
+  .trip-plan-description {
+    padding: 1em;
+  }
+  .trip-plan-title {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+  }
+  .trip-plan-content {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .trip-plan-img {
+    height: 25em;
+  }
+  .trip-day {
+    font-size: 1.5em;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .trip-title {
+    font-size: 1.5em;
+    /* background-color: orange; */
+  }
+  .trip-content-header {
+    font-size: 1.5em;
+  }
+  .trip-content-details {
+    font-size: 1em;
+  }
+  .trip-price-header {
+    font-size: 1.2em;
+  }
+  .trip-price-new {
+    font-size: 2em;
+  }
+  .trip-price-old {
+    font-size: 1em;
+  }
+  .trip-content-details {
+    margin-bottom: 2em;
+  }
+  .trip-book-button {
+    margin-top: 1em;
+    font-size: 1.2em;
+  }
+  .trip-duration {
+    font-weight: 400;
+    width: max-content;
+    font-size: 1.2em;
+    /* width: 20%; */
+  }
+
+  /* TripPlan component */
+  .trip-plan-container {
+    padding: 1em 0 2em 0;
+    margin: 2em;
+  }
+
+  .trip-plan-description {
+    padding: 1em;
+  }
+  .trip-plan-title {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+  }
+  .trip-plan-content {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .trip-plan-img {
+    height: 25em;
+  }
+  /* .trip-day { */
+  /* font-size: 1.3em; */
+  /* margin: -20px; */
+  /* } */
+}
+/* @media only screen and (max-width: 320px) {
+  .trip-title {
+    font-size: 1em; */
+/* background-color: yellow; */
+/* }
+  .trip-content-header {
+    font-size: 1em;
+  }
+  .trip-content-details {
+    font-size: 1em;
+  }
+  .trip-price-header {
+    font-size: 1em;
+  }
+  .trip-price-new {
+    font-size: 1.5em;
+  }
+  .trip-price-old {
+    font-size: 0.5em;
+  }
+  .trip-content-details {
+    margin-bottom: 2em;
+  }
+  .trip-book-button {
+    margin-top: 1em;
+    width: 100%;
+    font-size: 0.1em;
+  }
+  .trip-duration {
+    font-weight: 300;
+    font-size: 1em;
+    width: 25%;
+    margin: 0 0.5em 0 0;
+  } */
+
+/* TripPlan component */
+/* .trip-plan-container {
+    padding: 1em 0 2em 0;
+    margin: 2em;
+  }
+
+  .trip-plan-description {
+    padding: 1em;
+  }
+  .trip-plan-title {
+    font-size: 1em;
+    margin-bottom: 0.2em;
+  }
+  .trip-plan-content {
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+  .trip-plan-img {
+    height: 20em;
+  }
+  .trip-day {
+    font-size: 1em;
+  }
+} */
